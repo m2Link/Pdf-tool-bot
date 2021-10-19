@@ -15,7 +15,11 @@ Made With❤️By @M2Botz
 
     # Home Button
     home_buttons = [
-        [InlineKeyboardButton(text="Home 🏠", callback_data="home")]
+        [
+            InlineKeyboardButton("💬 Update Channel", url="https://t.me/m2botz"),
+            InlineKeyboardButton("🗣 Support Group", url="https://t.me/m2botzsupport") 
+        ],
+            [InlineKeyboardButton(text="Home 🏠", callback_data="home")]
     ]
 
     # Rest Buttons
@@ -51,13 +55,13 @@ Made With❤️By @M2Botz
     ABOUT = """
 **About This Bot** 
 
-A telegram bot with PDF Tools by @StarkBots
+🤖My Name : [Pdf Tool Bot](https://t.me/PDFM2Bot)
 
 🌐Source Code : [Releasing Soon](https://t.me/m2botz)
 
-💬 Update Channel : [Join](https://t.me/m2botz)
+💬 Update Channel : [Click Here](https://t.me/m2botz)
 
-🗣 Support Group : [Join](https://t.me/m2botzsupport)
+🗣 Support Group : [Click Here](https://t.me/m2botzsupport)
 
 🧑‍💻Developer : [M2](https://t.me/ask_admin01)
     """
