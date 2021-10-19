@@ -49,6 +49,8 @@ Made With❤️By @M2Botz
 3) Encrypt PDFs
 4) Decrypt PDFs
 5) Convert Images to PDF
+
+Made With❤️By @M2Botz
 """
 
     # About Message
@@ -64,4 +66,6 @@ Made With❤️By @M2Botz
 🗣 Support Group : [Click Here](https://t.me/m2botzsupport)
 
 🧑‍💻Developer : [M2](https://t.me/ask_admin01)
+
+Made With❤️By @M2Botz
     """
