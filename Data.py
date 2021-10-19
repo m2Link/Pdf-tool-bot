@@ -6,28 +6,30 @@ class Data:
     START = """
 Hey {}
 
-Welcome to {}
-
 I can help you to do stuff on PDFs as well as convert images to PDF. Use /help to see features.
 
-JUST SEND A PDF (or an image) to get started.
+Just Send A PDF or image to get started.
 
-By @StarkBots
+Made With❤️By @M2Botz
     """
 
     # Home Button
     home_buttons = [
-        [InlineKeyboardButton(text="🏠 Return Home 🏠", callback_data="home")]
+        [InlineKeyboardButton(text="Home 🏠", callback_data="home")]
     ]
 
     # Rest Buttons
     buttons = [
-        [InlineKeyboardButton("✨ Bot Status and More Bots ✨", url="https://t.me/StarkBots/7")],
+        [
+            InlineKeyboardButton("💬 Update Channel", url="https://t.me/m2botz"),
+            InlineKeyboardButton("🗣 Support Group", url="https://t.me/m2botzsupport)
+
+           [InlineKeyboardButton("🧑‍💻Developer", url="https://t.me/ask_admin01")],
         [
             InlineKeyboardButton("How to Use ❔", callback_data="help"),
-            InlineKeyboardButton("🎪 About 🎪", callback_data="about")
+            InlineKeyboardButton(" About 😎", callback_data="about")
         ],
-        [InlineKeyboardButton("♥ More Amazing bots ♥", url="https://t.me/StarkBots")],
+        [InlineKeyboardButton("✨ Bot Status and More Bots ✨", url="https://t.me/m2botz/17")],
     ]
 
     # Help Message
@@ -51,11 +53,11 @@ By @StarkBots
 
 A telegram bot with PDF Tools by @StarkBots
 
-Source Code : [Click Here](https://github.com/StarkBotsIndustries/PDFBot)
+🌐Source Code : [Releasing Soon](https://t.me/m2botz)
 
-Framework : [Pyrogram](docs.pyrogram.org)
+💬 Update Channel : [Join](https://t.me/m2botz)
 
-Language : [Python](www.python.org)
+🗣 Support Group : [Join](https://t.me/m2botzsupport)
 
-Developer : @StarkProgrammer
+🧑‍💻Developer : [M2](https://t.me/ask_admin01)
     """
