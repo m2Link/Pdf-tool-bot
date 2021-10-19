@@ -32,13 +32,13 @@ async def main(_, msg: Message):
     await status.delete()
     if "decrypted file back" in info:
         await msg.reply(
-            f"**Encrypted File** \n\n{info} \n\nUse below button to decrypt the pdf file.",
+            f"**Encrypted File** \n\n{info} \n\nUse Below Button To Decrypt The Pdf File.",
             reply_markup=InlineKeyboardMarkup(buttons),
             quote=True
         )
     else:
         await msg.reply(
-            f"**PDF Information** \n\n{info} \n\nUse below buttons to act on the pdf file.",
+            f"**PDF Information** \n\n{info} \n\nUse Below Buttons To Act On The Pdf File.",
             reply_markup=InlineKeyboardMarkup(buttons),
             quote=True
         )
