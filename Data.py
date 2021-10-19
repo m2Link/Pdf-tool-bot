@@ -22,7 +22,7 @@ Made With❤️By @M2Botz
     buttons = [
         [
             InlineKeyboardButton("💬 Update Channel", url="https://t.me/m2botz"),
-            InlineKeyboardButton("🗣 Support Group", url="https://t.me/m2botzsupport)
+            InlineKeyboardButton("🗣 Support Group", url="https://t.me/m2botzsupport")
         ],
            [InlineKeyboardButton("🧑‍💻Developer", url="https://t.me/ask_admin01")],
         [
